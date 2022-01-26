@@ -1,5 +1,4 @@
 import React from 'react';
-import backgroundImg from '../background.png';
 import './Main.css';
 import AnimalList from '../AnimalList/AnimalList';
 
