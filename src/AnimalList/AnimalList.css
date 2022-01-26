@@ -1,0 +1,12 @@
+.animal {
+  display: block;
+  position: absolute;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  font-weight: bolder;
+}
