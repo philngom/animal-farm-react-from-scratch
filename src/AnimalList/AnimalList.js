@@ -1,12 +1,12 @@
 import React from 'react';
+import './AnimalList.css';
 
 export default function AnimalList(props) {
   return (
-    <div className="animal">
+    <div style={{ top: props.top, left: props.left }} className="animal">
       <img src={`./images/${props.type}.svg`}/>
-      <p>{props.name}</p>
-      <p>{props.type}</p>
-      <p>{props.says}</p>
+      <p className="name">{props.name}</p>
+      <p className="says">{props.says}</p>
     </div>
   );
 }
